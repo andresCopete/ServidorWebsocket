@@ -1,0 +1,6 @@
+{
+    "dbname":"BDMobileUsers",
+    "username":"postgres",
+    "password":"Colombia2019",
+    "host":"bdmobileuserchili.caovc0dmef2z.us-west-2.rds.amazonaws.com"
+}
