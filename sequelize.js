@@ -6,8 +6,11 @@ const sequelizeconnection = new Sequelize('BDMobileUsers','postgres', 'Colombia2
 });
 
 sequelizeconnection.authenticate().then(()=>{
-    console.log('conectado exitosamente');
+    console.log('conectado exitosamente a base de datos');
 }).catch(err=>{
     console.log('Error el generar conexion', err);
 })
+
+
+
 module.exports.Sequelize= sequelizeconnection;
